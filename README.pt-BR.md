@@ -23,14 +23,25 @@ Simular uma auditoria real de hardening em Linux, aplicando e documentando contr
 
 ## Evidências
 
-| # | Controle | Print |
-|---|----------|-------|
-| 1 | Auditoria de pacotes | `images/01-package-audit.png` |
-| 2 | Timeout de terminal | `images/02-terminal-timeout.png` |
-| 3 | Bloqueio do root | `images/03-root-lockdown.png` |
-| 4 | Expiração de senha (antes) | `images/04-chage-before.png` |
-| 5 | Expiração de senha (depois) | `images/05-chage-after.png` |
-| 6 | Senha fraca quebrada (John the Ripper) | `images/06-john-weak-password.png` |
+### 1. Auditoria de pacotes instalados
+![Auditoria de pacotes](images/01-package-audit.png)
+
+### 2. Timeout de sessão do terminal
+![Timeout de terminal](images/02-terminal-timeout.png)
+
+### 3. Bloqueio da conta root
+![Bloqueio do root](images/03-root-lockdown.png)
+
+### 4. Política de expiração de senha - antes
+![Expiração de senha antes](images/04-chage-before.png)
+
+### 5. Política de expiração de senha - depois
+![Expiração de senha depois](images/05-chage-after.png)
+
+### 6. Senha fraca quebrada (John the Ripper)
+![Senha fraca quebrada](images/06-john-weak-password.png)
+
+> Observação: se alguma imagem acima não aparecer, confira se o nome do arquivo correspondente dentro da pasta `images/` bate exatamente com o caminho referenciado aqui (diferencia maiúsculas/minúsculas, sem extensões duplicadas).
 
 ## Comandos Principais
 

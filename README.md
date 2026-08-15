@@ -23,14 +23,25 @@ Simulate a real-world Linux hardening audit, applying and documenting controls c
 
 ## Evidence
 
-| # | Control | Screenshot |
-|---|---------|------------|
-| 1 | Package audit | `images/01-package-audit.png` |
-| 2 | Terminal timeout | `images/02-terminal-timeout.png` |
-| 3 | Root lockdown | `images/03-root-lockdown.png` |
-| 4 | Password aging (before) | `images/04-chage-before.png` |
-| 5 | Password aging (after) | `images/05-chage-after.png` |
-| 6 | Weak password cracked (John the Ripper) | `images/06-john-weak-password.png` |
+### 1. Installed package audit
+![Package audit](images/01-package-audit.png)
+
+### 2. Terminal session timeout
+![Terminal timeout](images/02-terminal-timeout.png)
+
+### 3. Root account lockdown
+![Root lockdown](images/03-root-lockdown.png)
+
+### 4. Password aging policy - before
+![Password aging before](images/04-chage-before.png)
+
+### 5. Password aging policy - after
+![Password aging after](images/05-chage-after.png)
+
+### 6. Weak password cracked (John the Ripper)
+![John the Ripper weak password](images/06-john-weak-password.png)
+
+> Note: if any image above does not render, check that the corresponding filename inside the `images/` folder exactly matches the path referenced here (case-sensitive, no duplicated extensions).
 
 ## Key Commands
 
